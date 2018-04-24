@@ -88,9 +88,9 @@ class Network():
                 self.ChangeLog(ip)
                 time.sleep(0.3)
 
-            # if result is return 2 your SDK level is == 0.
-            # not possible for you to hack, wait time to
-            # regenerate SDK.
+            # if the return result is 2, then you have no exploits
+            # not possible for you to hack, wait to
+            # regenerate exploits.
             elif resultHack == 2:
                 pass
         else:
